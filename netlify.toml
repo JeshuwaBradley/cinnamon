@@ -1,3 +1,4 @@
 [build]
-  publish = "site"          # publish the "site" folder
+  publish = "."          # publish the "site" folder
   functions = "netlify/functions"
+
