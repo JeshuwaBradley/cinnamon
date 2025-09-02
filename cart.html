@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - SpiceKing Cinnamon</title>
+    <link rel="stylesheet" href="css/cart.css">
+
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "svlg9aub7d");
+    </script>
+</head>
+
+<body>
+    <!-- Accessible Skip Link -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Minimal Header (match your site nav as needed) -->
+    <header class="site-header">
+        <nav class="container nav" aria-label="Main Navigation">
+            <a class="brand" href="/">SpiceKing</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <!-- <li><a href="/ceylon-cinnamon">Ceylon Cinnamon</a></li> -->
+                <li class="dropdown">
+                    <a href="#">Ceylon Spices <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/ceylon-cinnamon">Ceylon Cinnamon</a></li>
+                        <li><a href="/ceylon-pepper">Ceylon Pepper</a></li>
+                        <li><a href="/ceylon-cardamom">Ceylon Cardamom</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Recipes <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/cinnamon-roll">Cinnamon Rolls</a></li>
+                        <li><a href="/cinnamon-snickerdoodle">Cinnamon Snickerdoodles</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/products">Shop</a></li>
+                <li>
+                    <aclass="active" aria-current="page" href="/cart"><i class="fa-solid fa-cart-shopping"></i>Cart<span
+                            id="cart-count">0</span></a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="cart-container">
+            <h1>Your Cart</h1>
+
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="cinnamon-quills.jpg" alt="Cinnamon Quills">
+                    <div class="item-details">
+                        <h3>Ceylon Cinnamon Quills</h3>
+                        <p>Grade: C5</p>
+                        <p>Price: $13.50</p>
+                        <div class="quantity">
+                            <button class="decrease">-</button>
+                            <span class="qty">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <p class="total">Total: $13.50</p>
+                    </div>
+                    <button class="remove">Remove</button>
+                </div>
+
+                <div class="cart-item">
+                    <img src="cinnamon-powder.jpg" alt="Cinnamon Powder">
+                    <div class="item-details">
+                        <h3>Ceylon Cinnamon Powder</h3>
+                        <p>Grade: Alba</p>
+                        <p>Price: $10.00</p>
+                        <div class="quantity">
+                            <button class="decrease">-</button>
+                            <span class="qty">2</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <p class="total">Total: $20.00</p>
+                    </div>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <h2>Cart Summary</h2>
+                <p>Subtotal: $33.50</p>
+                <p>Shipping: $5.00</p>
+                <h3>Total: $38.50</h3>
+                <button class="checkout">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__grid">
+            <div>
+                <h3>SpiceKing</h3>
+                <p>Premium Ceylon cinnamon and spices from Sri Lanka.</p>
+            </div>
+            <nav aria-label="Footer">
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">Shop</a></li>
+                    <li><a href="/ceylon-cinnamon" aria-current="page">Ceylon Cinnamon</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer__meta">
+                <p>Email: <a href="mailto:info@spiceking.com">info@spiceking.com</a></p>
+                <p>Phone: <a href="tel:+94771234567">+94 77 123 4567</a></p>
+                <p>Colombo, Sri Lanka</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2025 SpiceKing — All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/cart.js"></script>
+
+    <script src="https://kit.fontawesome.com/42d4c8c9bc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
